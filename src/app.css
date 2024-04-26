@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'didot';
+  src: url('/didot/bold.otf');
+  font-weight: bold;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'didot';
+}
+
+:root {
+  --dark: #0e0e0e;
+  --accent: #00299a;
+  --light: #FFFFFF;
+}
